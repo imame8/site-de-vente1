@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>panier</title>
+    <link rel="stylesheet" href="sylecont.css">
+</head>
+
+<body class="panier">
+    <form action="mailto:assassindiallo88@gmail.com" method="post" enctype="text/plain">
+        <h1>panier</h1>
+        <input type="text" placeholder="produit" name="produit" autocomplete="off" required>
+        <input type="number" placeholder="quantité" name="quantite" min="1" autocomplete="off" required>
+        <input type="number" name="carte" inputmode="numeric" max="9999999999999999" min="0001000000000000"
+            pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}" placeholder="1234 5678 9012 3456" required>
+        <button type="submit">ENVOYER</button>
+    </form>
+</body>
+
+</html>

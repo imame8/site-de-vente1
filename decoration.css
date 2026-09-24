@@ -1,0 +1,377 @@
+body {
+    font-family: 'Century Gothic', verdana, sans-serif;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgb(33, 56, 65) 0%, rgb(47, 95, 67) 50%, rgb(124, 112, 7) 100%);
+}
+
+img {
+    width: 10%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+#img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 30px;
+}
+
+.ranger {
+    border: 7px solid rgba(9, 15, 11, 0.023);
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    height: 200px;
+    padding-top: 30px;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(88, 207, 191) 50%, rgb(33, 197, 167));
+    border-top: 4px solid #4ab895;
+}
+
+main {
+    width: 100%;
+    background: linear-gradient(90deg, rgb(112, 209, 248) 0%, rgb(162, 255, 201) 50%, rgb(122, 255, 193) 100%);
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+}
+
+nav a,
+nav label {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: aqua;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(66, 70, 71);
+}
+
+.menu:hover {
+    border-top: 4px solid #fab;
+}
+
+.haut:hover {
+    border-top: 4px solid #fab;
+}
+
+.hero {
+    height: 500px;
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    color: white;
+}
+
+.hero-content h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.erreur {
+    text-align: center;
+    font-size: 45px;
+}
+
+.coul a:hover {
+    border-top: 4px solid #fab;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.social {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 20px;
+}
+
+.mentleg {
+    text-align: center;
+}
+
+.categories img {
+    width: 50%;
+}
+
+.categories {
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 25px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.grille {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+}
+
+.carte-produit {
+    width: 250px;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.carte-produit img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.carte-produit a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #424647;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-lateral h2 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.menu-lateral a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.menu-lateral a:hover {
+    background-color: #101c78;
+}
+
+.menu-lateral {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #42464779;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    display: none;
+}
+
+.fermer {
+    display: block;
+    text-align: right;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#menu-toggle:checked~.menu-lateral {
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ju {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    padding: 30px;
+}
+
+.ju img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    border: 7px solid rgba(9, 15, 11, 0.011);
+}
+
+.prix {
+    text-align: center;
+}
+
+.panier {
+    background-color: rgba(15, 15, 200, 0.514);
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    nav li {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav a,
+    nav label {
+        display: block;
+        padding: 12px;
+    }
+
+    .grille {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .carte-produit {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    #img {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+
+    .ju {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+
+    .hero {
+        height: 350px;
+    }
+
+    .hero-content {
+        padding: 20px;
+    }
+
+    .hero-content h2 {
+        font-size: 28px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px 10px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    nav a,
+    nav label {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .grille {
+        justify-content: center;
+        gap: 20px;
+        padding: 25px;
+    }
+
+    .carte-produit {
+        width: 220px;
+    }
+
+    #img {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .ju {
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+    }
+
+    .hero {
+        height: 400px;
+    }
+
+    .hero-content h2 {
+        font-size: 32px;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+    }
+}
